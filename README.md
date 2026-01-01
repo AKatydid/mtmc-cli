@@ -1,11 +1,8 @@
-<h2 align="center">
-  MTMC-CLI
-</h2>
-
 <div align="center">
 <img src="./assets/imgs/mtmc_cli_logo.png" width="300">
 </div>
 
+## MTMC-CLI
 MTMC-CLI is an open-source kernel generation agent based on the “Macro Thinking, Micro Coding” paradigm, running directly in your terminal. 
 It provides lightweight access to macro-level reasoning and micro-level kernel coding within agent-driven loops. 
 
@@ -20,7 +17,6 @@ This project is licensed under the **Apache License 2.0**.
 See the [LICENSE](./LICENSE) file for details.
 
 ## Acknowledge
-MTMC-CLI is inspired by and builds upon ideas from the excellent open-source project  
-**[google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)**.  
+MTMC-CLI is inspired by the excellent open-source project **[google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)**.  
 We thank the Gemini CLI team for providing a clean and well-designed foundation for building agent-driven CLI tools.
 
