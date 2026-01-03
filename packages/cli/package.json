@@ -1,0 +1,13 @@
+{
+  "name": "@akatydid/cli",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.tsx",
+  "dependencies": {
+    "@akatydid/core": "*"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "ink": "^4.0.0"
+  }
+}

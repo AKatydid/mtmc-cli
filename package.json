@@ -1,0 +1,44 @@
+{
+  "name": "@akatydid/mtmc-cli",
+  "version": "0.1.0-nightly.20260102",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKatydid/mtmc-cli.git"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "start": "node bundle/mtmc.js",
+    "dev": "npm run build && npm run start"
+  },
+  "bin": {
+    "mtmc": "bundle/mtmc.js"
+  },
+  "files": [
+    "bundle/",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "chalk": "^5.0.0",
+    "esbuild": "^0.25.0",
+    "ink": "^4.0.0",
+    "ink-big-text": "^2.0.0",
+    "ink-gradient": "^3.0.0",
+    "ink-text-input": "^5.0.0",
+    "react": "^18.2.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "tinygradient": "^2.0.1"
+  }
+}
