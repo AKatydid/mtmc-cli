@@ -8,12 +8,10 @@ const App = () => {
   const [query, setQuery] = useState('');
   const [submitted, setSubmitted] = useState(false);
 
-  // 处理 Enter 键
   useInput((input, key) => {
     if (key.return && query.trim().length > 0) {
       setSubmitted(true);
-      // 这里可以调用 Core 包的逻辑
-      // processCommand(query);
+      // TODO core process command
     }
   });
 
@@ -28,7 +26,6 @@ const App = () => {
 
   return (
     <Box flexDirection="column" paddingX={1} paddingY={1}>
-      {/* 1. Logo 区域 - 已修改为蓝紫渐变风格 */}
       <Box flexDirection="column" alignItems="center" marginBottom={1}>
         <Gradient colors={['#3b82f6', '#a855f7']}>
           <BigText 
@@ -42,7 +39,7 @@ const App = () => {
         </Text>
       </Box>
 
-      {/* 2. Tips 列表区域 */}
+      {/* Tips Lists*/}
       <Box flexDirection="column" marginBottom={1}>
         <Text color="white" bold>Tips for getting started:</Text>
         <Text color="gray">1. Ask questions, edit files, or run commands.</Text>
@@ -50,7 +47,7 @@ const App = () => {
         <Text color="gray">3. <Text color="magenta">/help</Text> for more information.</Text>
       </Box>
 
-      {/* 3. 输入框区域 */}
+      {/* Input Bar */}
       <Box 
         borderStyle="round" 
         borderColor="gray" 
@@ -67,9 +64,9 @@ const App = () => {
         />
       </Box>
       
-      {/* 底部状态栏 */}
+      {/* Status */}
       <Box marginTop={0}>
-        <Text color="gray" dimColor>Using: 2 MTMC.md files | 1 MCP server</Text>
+        <Text color="gray" dimColor>Using: MTMC.md files</Text>
       </Box>
     </Box>
   );
