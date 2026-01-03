@@ -26,12 +26,11 @@ const App = () => {
 
   return (
     <Box flexDirection="column" paddingX={1} paddingY={1}>
-      <Box flexDirection="column" alignItems="center" marginBottom={1}>
+      <Box flexDirection="column" marginBottom={1}>
         <Gradient colors={['#3b82f6', '#a855f7']}>
           <BigText 
             text="MTMC-CLI" 
             font="block" 
-            align='center' 
           />
         </Gradient>
         <Text color="#6366f1" bold>
