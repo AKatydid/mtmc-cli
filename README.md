@@ -2,9 +2,11 @@
 <img src="./assets/imgs/mtmc_cli_logo.png" style="height: 70%">
 </div>
 
-<span align="center">
-[![License](https://img.shields.io/github/license/AKatydid/mtmc-cli)](https://github.com/AKatydid/mtmc-cli/blob/main/LICENSE)
-</span>
+<p align="center">
+  <a href="https://github.com/AKatydid/mtmc-cli/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/AKatydid/mtmc-cli" alt="License" />
+  </a>
+</p>
 
 MTMC-CLI is an open-source kernel generation agent based on the “Macro Thinking, Micro Coding” paradigm, running directly in your terminal. 
 It provides lightweight access to macro-level reasoning and micro-level kernel coding within agent-driven loops. 
