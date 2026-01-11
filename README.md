@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./assets/imgs/mtmc_cli_logo.png" style="height: 70%">
+<img src="./assets/imgs/mtmc_cli_logo.png" style="height: 60%">
 </div>
 
 <p align="center">
