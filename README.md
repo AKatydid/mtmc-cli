@@ -12,7 +12,6 @@ MTMC-CLI is an open-source kernel generation agent based on the “Macro Thinkin
 It provides lightweight access to macro-level reasoning and micro-level kernel coding within agent-driven loops. 
 
 ## RoadMap  
-- [ ] CI Process
 - [ ] Integration with automated performance evaluation and profiling tools  
 - [ ] Multi-backend kernel generation (e.g., CUDA, Triton, other accelerators)  
 - [ ] Benchmarking and reproducibility utilities for generated kernels  
